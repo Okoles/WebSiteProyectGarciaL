@@ -3,10 +3,10 @@ body{
 	background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(121,82,9,1) 100%, rgba(121,82,9,1) 100%);
 	background-repeat: no-repeat;
 }
-h1,h2,h4,h6,p{
+h1,h2,h4,h6,p,label,input{
 	font-family: "verdana", arial, sans-serif
 }
-h1,h2,h4,h6,p{
+h1,h2,h4,h6,p,label{
 	color: #E8E9EB
 }
 h1,h2,h6{
@@ -43,4 +43,7 @@ table{
 p{
 	font-size: 15px
 	text-align: left;
+}
+input{
+	color: #121213
 }

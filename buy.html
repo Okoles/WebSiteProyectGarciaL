@@ -7,26 +7,52 @@
 <body>
 	<table width="90%" align="center">
 		<tr>
-			<td colspan="2" width="100%">
+			<td width="100%">
 				<video width="100%" autoplay muted>
 					<source src="videoplayback.mp4" type="video/mp4">
 				</video>
 			</td>
 		</tr>
 		<tr>
-			<td width="100%" colspan="2">
+			<td width="100%">
 				<h1>FAFE CAFE</h1>
 			</td>
 		</tr>
 		<tr>
-			<td width="100%" colspan="2">
+			<td width="100%">
 				<h6><a href="about_us.html">About Us</a> - <a href="index.html">Home</a></h6>
 			</td>
 		</tr>
 		<tr>
-			<td>
-				<input type="number" name="card_number" width="100%">
+			<td width="100%">
+				<h2> Enter card information</h2>
 			</td>
+		</tr>
+		<tr>
+			<td>
+				 <label>Card Number</label>
+        		<input class="card-number" placeholder="1234 1234 1234 1234"           type="text" required maxlength="16" />
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<label>Name</label>
+           		<input placeholder="ISRAEL ISRAELI" type="text" required />
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<label>Expiration Date</label>
+            	<input placeholder="10/25" type="text" maxlength="5" required />
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<label>Card Verification Value (CVV)</label>
+           		<input class="card-name" placeholder="123" type="text" maxlength="3" required />
+			</td>
+		</tr>
+		<tr>
 			<td width="100%">
 				<a href="thanks.html">
 					<img src="submit.png" width="10%">
